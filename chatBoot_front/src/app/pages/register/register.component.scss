@@ -1,0 +1,46 @@
+/* login.component.scss */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #333; /* Dark background for the login container */
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: white; /* Ensure text inside the container is white */
+  overflow: auto; /* Handle overflow if content is too large */
+  margin-bottom: 30vh; /* Margin from the top to center the container */
+}
+
+.login-container .form-control {
+  background-color: #222; /* Dark background for inputs */
+  color: white; /* Text color for inputs */
+  border: 1px solid #444; /* Light border for inputs */
+}
+
+.login-container .form-control::placeholder {
+  color: #888; /* Placeholder text color */
+}
+
+.login-container .btn-primary {
+  background-color: #007bff; /* Blue background for button */
+  border: none;
+  color: white; /* Text color for button */
+}
+
+.login-container .btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.login-container .btn-link {
+  color: #007bff; /* Blue color for the link button */
+}
+
+.login-container .btn-link:hover {
+  color: #0056b3; /* Darker blue on hover */
+}

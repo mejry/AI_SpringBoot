@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: white; /* Add this line */
+  padding: 20px; /* Optional: Add padding if needed */
+  margin-top: 30vh;
+}
+
+
+.activation-message, .activation-error {
+  text-align: center;
+}
+
+.activation-error {
+  color: red;
+}

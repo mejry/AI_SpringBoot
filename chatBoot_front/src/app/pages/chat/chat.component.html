@@ -1,0 +1,14 @@
+<div class="chat-container">
+  <button class="sign-out-button" (click)="signOut()">Sign Out</button>
+  <div class="chat-header">Chat Application</div>
+  <div class="chat-history">
+    <div *ngFor="let chat of chatHistory">
+      <div class="user-message"><strong>User:</strong> {{ chat.user }}</div>
+      <div class="bot-response" *ngIf="chat.bot"><strong>Bot:</strong> {{ chat.bot }}</div>
+    </div>
+  </div>
+  <div class="chat-input">
+    <input [(ngModel)]="userMessage" (keyup.enter)="sendMessage()" placeholder="Type a message..." />
+    <button (click)="sendMessage()">Send</button>
+  </div>
+</div>

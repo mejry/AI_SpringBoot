@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+.login-container {
+  width: 800px !important;
+  margin-top: 15%;
+}
+
+body {
+  background-image: url('/assets/images/background.jpg'); /* Adjust the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
